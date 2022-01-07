@@ -1,4 +1,4 @@
-
+@import "./rule.css";
 /* .header{
   font-size: 20px;
   margin-left: 400px;
@@ -62,7 +62,7 @@ h1{
   align-items: center;
   justify-content: center;
   display: flex;
-  font-size: 40px;
+  font-size: var(--judul);
 }
 #section-desc{
   height: 60vh;
