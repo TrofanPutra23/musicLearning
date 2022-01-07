@@ -1,0 +1,93 @@
+
+/* .header{
+  font-size: 20px;
+  margin-left: 400px;
+  color: #000957;
+} */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* #Program{
+  font-size: 20px;
+  margin-left: 400px;
+  color: #000957;
+}
+
+#Event{
+  font-size: 20px;
+  margin-left: 70px;
+  color: #000957;
+}
+
+#Berita{
+  font-size: 20px;
+  margin-left: 70px;
+  color: #000957;
+}
+
+#Sheet{
+  font-size: 20px;
+  margin-left: 70px;
+  color: #000957;
+}
+
+#Chord{
+  font-size: 20px;
+  margin-left: 70px;
+  color: #000957;
+}
+
+#user{
+  margin-top: 10px;
+  margin-left: 200px;
+  width: 40px;
+}
+
+#Login{
+  font-size: 20px;
+  margin-left: 30px;
+  color: #000957;
+} */
+
+#img{
+  /* margin-top: 30px;  */
+  width: 100%;
+
+}
+
+#section1{
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.aset1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 150px;
+}
+#img1{
+  width: 100px;
+  height: 100px;
+}
+#h1{
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+
+.aset2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left:300px;
+  height: 150px;
+}
+
