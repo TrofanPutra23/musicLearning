@@ -1,0 +1,106 @@
+@import "./rule.css";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* stylefor navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid var(--secondary);
+}
+.navbar ul .list a {
+    margin: 20px;
+}
+.navbar .containerList  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    list-style-type: none;
+}
+.containerList li {
+    margin: 10px;
+}
+.containerList li a {
+    text-decoration: none;
+    color: black;
+    font-size:  1.5em;;
+}
+
+/* Style logo */
+.navbar .logo  {
+    display: flex;
+}
+.logo img {
+    width: 3em;height: auto;
+} 
+
+.HeroSection {
+    width: 100%;
+    background: url(../assets/ableton-in-studio-01-1200x600\ 1.png);
+    height: 40vw;
+    background-size:cover;
+}
+
+h1{
+    padding: 20px;
+    font-size: var(--judul) ;
+}
+
+
+/* style deskripsi kelas */
+.Description{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
+
+#paragraf{
+    line-height: 30px;
+    padding-left:40px;
+    font-size: 20px;
+}
+
+/* style Materi kelas */
+.materi{
+    margin-top: 30px;
+}
+
+.list-materi{
+    line-height: 40px;
+    padding-left: 60px;
+    font-size: 20px;
+}
+
+/* style Pengajar */
+.pengajar{
+    margin-top: 30px;
+}
+
+#img-pengajar{
+    padding-left: 20px;
+    border-radius: 50%;
+    width: 200px;
+}
+
+.desc-pengajar{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+}
+
+.keterangan-pengajar{
+    padding-left: 20px;
+    
+}
+
+#tentang-pengajar{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 500px;
+}
