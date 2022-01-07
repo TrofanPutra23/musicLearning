@@ -1,0 +1,53 @@
+:root {
+    --primary : #F7F7F7 ;
+    --secondary : #333333 ;
+    --suport : #706C61 ;
+    --blue : #E1F4F3 ;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1 , h2 , h3 , h4 {
+    padding: 20px;
+}
+
+/* stylefor navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid var(--secondary);
+}
+.navbar ul .list a {
+    margin: 20px;
+}
+.navbar .containerList  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    list-style-type: none;
+}
+.containerList li {
+    margin: 10px;
+}
+.containerList li a {
+    text-decoration: none;
+    color: black;
+    font-size:  1.5em;;
+}
+
+
+
+/* style for logo */
+.navbar .logo  {
+    display: flex;
+}
+.logo img {
+    width: 3em;height: auto;
+}
