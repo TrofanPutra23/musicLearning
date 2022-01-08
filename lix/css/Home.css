@@ -63,6 +63,7 @@ h1{
   justify-content: center;
   display: flex;
   font-size: var(--judul);
+  font-family: 'Roboto', sans-serif;
 }
 #section-desc{
   height: 60vh;
@@ -74,6 +75,7 @@ h1{
   flex-direction: row;
   font-size: 30px;
   margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .aset {
@@ -95,9 +97,8 @@ h1{
 
 #title-aset1{
   font-size: 20px;
+  font-family: 'Roboto', sans-serif;
 }
-
-
 #text{
   margin-top: 20px;
   font-size: 20px;

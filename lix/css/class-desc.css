@@ -1,4 +1,5 @@
 @import "./rule.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 *{
     padding: 0px;
@@ -39,6 +40,19 @@
     width: 3em;height: auto;
 } 
 
+.oppacity{
+    width: 100%;
+    height: 40vw;
+    background: rgba(0, 0, 0, 0.795);
+    position: absolute;
+}
+#ableton{
+    color: white;
+    font-size: 100px;
+    line-height: 550px;
+    text-align: center;
+}
+
 .HeroSection {
     width: 100%;
     background: url(../assets/ableton-in-studio-01-1200x600\ 1.png);
@@ -46,11 +60,16 @@
     background-size:cover;
 }
 
+section{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
 h1{
     padding: 20px;
     font-size: var(--judul) ;
 }
-
 
 /* style deskripsi kelas */
 .Description{
@@ -59,7 +78,6 @@ h1{
     flex-direction: column;
     width: 800px;
 }
-
 #paragraf{
     line-height: 30px;
     padding-left:40px;
@@ -70,7 +88,6 @@ h1{
 .materi{
     margin-top: 30px;
 }
-
 .list-materi{
     line-height: 40px;
     padding-left: 60px;
@@ -80,27 +97,114 @@ h1{
 /* style Pengajar */
 .pengajar{
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
 }
-
 #img-pengajar{
     padding-left: 20px;
     border-radius: 50%;
     width: 200px;
 }
-
 .desc-pengajar{
     display: flex;
     flex-direction: row;
     width: 500px;
 }
-
 .keterangan-pengajar{
     padding-left: 20px;
     
 }
-
 #tentang-pengajar{
     font-size: 20px;
     margin-top: 20px;
     width: 500px;
 }
+
+
+/* style for link to spotify and instagram */
+.link{
+    display: flex;
+    flex-direction: row;
+}
+.link-style{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 20px;
+    left: 20px;
+    right: 20px;
+    transform: translate(-20px, -20px);
+    width: 170px;
+    height: 50px;
+    background: black;
+    border-radius: 20px;
+}
+#img-link{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+}
+#text-link{
+    margin-top: 13px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* access class right side */
+section-access-class{
+    display: flex;
+    flex-direction: column;
+}
+
+.access{
+    background: var(--primary) ;
+    border: solid 3px var(--secondary);
+    margin-left: 130px;
+    margin-top: 50px;
+    width: 400px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.desc-access{
+    display: flex;
+    flex-direction: row;
+}
+
+#icon-access{
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#text-access{
+    margin-top: 55px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+/* untuk akses button */
+.access-button{
+    margin-top: 100px;
+    align-self: center;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    width: 230px;
+    height: 50px;
+    background: black;
+    border-radius: 20px ;
+}
+#akses{
+    color: white;
+    text-decoration: none;
+}
+
+
+
